@@ -50,7 +50,7 @@ def _check_member(client, message):
       except UserNotParticipant:
         try:
           sent_message = message.reply_text(
-              "{}, നിങ്ങൾ ഇതുവരെ **update channel ഇതുവരെ subscribed ചെയ്തിട്ടില്ല** അതുകൊണ്ട് [channel](https://t.me/{}) ൽ കേറി. [join](https://t.me/{}) ചെയ്ത് and **വീണ്ടും group ൽ വന്ന് താഴെ കാണുന unmute Me അമർത്തിയാൽ** നിങ്ങൾക്ക് group ൽ message അയക്കാം.".format(message.from_user.mention, channel, channel),
+              "{}, നിങ്ങൾ ഇതുവരെ **update channel ൽ join ചെയ്തിട്ടില്ല** അതുകൊണ്ട് [upadate channel](https://t.me/{}) എന്ന link ൽ കേറി. [update channel](https://t.me/{}) ൽ join ചെയ്ത് **വീണ്ടും group ൽ വന്ന് താഴെ കാണുന unmute Me അമർത്തിയാൽ** നിങ്ങൾക്ക് group ൽ message അയക്കാൻ സാധിക്കും.".format(message.from_user.mention, channel, channel),
               disable_web_page_preview=True,
               reply_markup=InlineKeyboardMarkup(
                   [[InlineKeyboardButton("📢 Join Update Channel 📢", url=f"https://t.me/{channel}")],
