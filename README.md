@@ -8,7 +8,9 @@
 - [X] Clean messages after completion
 - [ ] LOGGER support.
 
-## Deploy
+## Deploy 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BAGBOY555/Force-Subs-Telegram-bot)
+
 
 ### Installation
 - Clone this repo
