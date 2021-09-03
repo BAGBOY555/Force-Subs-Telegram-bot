@@ -1,0 +1,9 @@
+API_HASH
+
+APP_ID
+
+BOT_TOKEN
+
+ENV = False
+
+SUDO_USERS
